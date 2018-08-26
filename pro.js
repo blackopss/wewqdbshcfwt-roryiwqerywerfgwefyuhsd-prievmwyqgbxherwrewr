@@ -1,10 +1,10 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix=`!`
+const prefix='#'
 const moment = require('moment');
 const fs = require('fs');
 var version = '11.0.0';
-var owner = '333239187509870595'
+var owner = '431150885549113344'
 const Bot = new Discord.Client();
 
 let daily = JSON.parse(fs.readFileSync("./daily.json", "utf8")); // يقرا ملف jso
